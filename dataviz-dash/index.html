@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataViz Dash</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>DataViz Dash</h1>
+
+    <div class="controls">
+      <label for="chartType">Chart type:</label>
+      <select id="chartType">
+        <option value="bar">Bar</option>
+        <option value="line">Line</option>
+      </select>
+
+      <label for="filterSelect">Filter:</label>
+      <select id="filterSelect">
+        <option value="all">All months</option>
+        <option value="q1">Q1 (Jan–Mar)</option>
+        <option value="q2">Q2 (Apr–Jun)</option>
+        <option value="q3">Q3 (Jul–Sep)</option>
+        <option value="q4">Q4 (Oct–Dec)</option>
+      </select>
+    </div>
+
+    <canvas id="chartCanvas" width="640" height="340"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
