@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f5f6fa;
+  color: #222;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.4rem;
+  flex-wrap: wrap;
+}
+
+.controls label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.controls select {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+#chartCanvas {
+  display: block;
+  max-width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
